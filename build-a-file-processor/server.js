@@ -1,4 +1,5 @@
 const fs = require('fs');
+const crypto = require('crypto');
 const fsPromises = require('fs/promises');
 
 async function main(){
@@ -16,12 +17,19 @@ console.log(exists);
 const entries = fs.readdirSync('assets');
 console.log(entries);
 
-const buf = Buffer.alloc('8, 0xff');
+const buf = Buffer.from('Hello, Node!');
 console.log(buf)
 
 console.log(buf.toString('hex'));
-console.log(buf.toString('base64'))
+console.log(buf.toString('base64'));
 
+const filledBuf = Buffer.alloc(8, 0xff);
+console.log(filledBuf);
 
+const decoded = Buffer.from('ZnJlZUNvZGVDYW1w', 'base64').toString('utf8');
+console.log(decoded);
+
+const hash = crypto.createHash('sha256').update('freeCodeCamp!').digest('hex');
+console.log(hash);
 
 main();
