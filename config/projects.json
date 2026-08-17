@@ -4,13 +4,14 @@
     "dashedName": "learn-nodejs-repl",
     "isIntegrated": false,
     "isPublic": true,
-    "currentLesson": 0,
+    "currentLesson": 22,
     "runTestsOnWatch": true,
     "seedEveryLesson": false,
     "isResetEnabled": false,
     "blockingTests": null,
     "breakOnFailure": null,
-    "numberOfLessons": 23
+    "numberOfLessons": 23,
+    "completedDate": 1786946869332
   },
   {
     "id": 1,
@@ -31,7 +32,7 @@
     "dashedName": "build-a-case-converter",
     "isIntegrated": false,
     "isPublic": true,
-    "currentLesson": 0,
+    "currentLesson": 42,
     "runTestsOnWatch": true,
     "seedEveryLesson": false,
     "isResetEnabled": false,
@@ -51,7 +52,7 @@
     "blockingTests": true,
     "breakOnFailure": true,
     "numberOfLessons": 1,
-    "completedDate": 1786945875991
+    "completedDate": 1786946626109
   },
   {
     "id": 4,
