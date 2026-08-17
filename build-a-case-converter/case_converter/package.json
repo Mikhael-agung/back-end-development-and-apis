@@ -1,0 +1,26 @@
+{
+  "name": "case_converter",
+  "version": "1.0.0",
+  "description": "This package is used to convert strings to a specific case.",
+  "keywords": [
+    "case",
+    "converter",
+    "uppercase",
+    "lowercase"
+  ],
+  "homepage": "https://github.com/Mikhael-agung/back-end-development-and-apis/tree/0eadd6b50abbd45684c57a2f4e9df9ddf46f671b#readme",
+  "bugs": {
+    "url": "https://github.com/Mikhael-agung/back-end-development-and-apis/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mikhael-agung/back-end-development-and-apis.git#0eadd6b50abbd45684c57a2f4e9df9ddf46f671b"
+  },
+  "license": "MIT",
+  "author": "me",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js"
+  }
+}
