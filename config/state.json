@@ -1,9 +1,9 @@
 {
-  "currentProject": null,
+  "currentProject": "build-a-random-joke-app",
   "locale": "english",
   "lastSeed": {
     "projectDashedName": "build-a-web-server",
     "lessonNumber": 59
   },
-  "lastWatchChange": 59
+  "lastWatchChange": 2
 }
