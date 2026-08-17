@@ -60,13 +60,14 @@
     "dashedName": "build-a-web-server",
     "isIntegrated": false,
     "isPublic": true,
-    "currentLesson": 29,
+    "currentLesson": 59,
     "runTestsOnWatch": true,
     "seedEveryLesson": true,
     "isResetEnabled": false,
     "blockingTests": false,
     "breakOnFailure": false,
-    "numberOfLessons": 60
+    "numberOfLessons": 60,
+    "completedDate": 1786975289046
   },
   {
     "id": 5,
